@@ -1,0 +1,48 @@
+body>div{
+    height: 1400px;
+
+}
+
+div {
+    border: solid 2px;
+    margin: 30px;
+}
+
+body>div:nth-child(1)>div {
+    border-color: tomato;
+    left: 30px;
+}
+
+body>div:nth-child(2)>div {
+    border-color: cornflowerblue;
+    left: 150px;
+}
+
+body>div>div:nth-child(1) {
+    border-color: greenyellow;
+    left: 30px;
+}
+
+body>div>div:nth-child(2) {
+border-color: blueviolet;
+left: 150px;
+}
+
+body>div>div:nth-child(3) {
+position: static;
+}
+
+body>div>div:nth-child(4) {
+position: relative;
+top: 80px;
+}
+
+body>div>div:nth-child(5) {
+position: absolute;
+top: 90px;
+}
+
+body>div>div:nth-child(6) {
+    position: sticky;
+    top: 200px;
+    }
